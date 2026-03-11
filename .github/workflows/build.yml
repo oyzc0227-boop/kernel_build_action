@@ -15,8 +15,8 @@ jobs:
       - name: Build Kernel Redmi 10X4G
         uses: oyzc0227-boop/kernel_build_action@main
         with:
-          kernel-url: https://github.com/MiCode/Xiaomi_Kernel_OpenSource.git
-          kernel-branch: merlin-r-oss
+          kernel-url: https://github.com/LineageOS/android_kernel_xiaomi_mt6768.git
+          kernel-branch: lineage-20.0
           config: merlin_defconfig
           arch: arm64
           aosp-gcc: true
